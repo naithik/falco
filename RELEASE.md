@@ -42,12 +42,12 @@ Let `x.y.z` the new version.
 
 - Once the release PR has got merged, and the CI has done its job on the master, git tag the new release
 
-```
+    ```
     git pull
     git checkout master
     git tag x.y.z
     git push origin x.y.z
-```
+    ```
 
 > **N.B.**: do NOT use an annotated tag
 
@@ -57,18 +57,19 @@ Let `x.y.z` the new version.
 - [Draft a new release](https://github.com/falcosecurity/falco/releases/new)
 - Use `x.y.z` both as tag version and release title
 - Use the following template to fill the release description:
-<!-- Copy the relevant part of the changelog here -->
+    ```
+    <!-- Copy the relevant part of the changelog here -->
 
-### Statistics
+    ### Statistics
 
-| Merged PRs        | Number  |
-|-------------------|---------|
-| Not user-facing   | x       |
-| Release note      | x       |
-| Total             | x       |
+    | Merged PRs        | Number  |
+    |-------------------|---------|
+    | Not user-facing   | x       |
+    | Release note      | x       |
+    | Total             | x       |
 
-<!-- Calculate stats and fill the above table -->
-```
+    <!-- Calculate stats and fill the above table -->
+    ```
 
 - Finally, publish the release!
 
