@@ -74,10 +74,7 @@ Let `x.y.z` the new version.
 
 ## Post-Release tasks
 
-### 1. Update the web site
-- TODO [Netlify](https://app.netlify.com/sites/falcosecurity/deploys)
-
-### 2. Announce the new release to the world!
+Announce the new release to the world!
 
 - Send an announcement to cncf-falco-dev@lists.cncf.io
 - Let folks in the slack #falco channel know about a new release came out
